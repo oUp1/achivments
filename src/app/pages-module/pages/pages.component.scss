@@ -14,25 +14,5 @@
     .items{
         display: grid;
         grid-template-columns: repeat(auto-fill,minmax(260px, 1fr));
-
-        div{
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-
-            border-radius: 100px;
-            margin: 1rem 2rem 1rem 2rem;
-            background-color: wheat;
-            padding-bottom: 1.2rem;
-            padding-top: 1rem;
-        }
-
-        progress{
-            width: 50%;
-        }
-
-        div, progress, span {
-            margin-top: 0.6rem;
-        }
     }
 }
